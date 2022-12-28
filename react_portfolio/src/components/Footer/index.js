@@ -1,4 +1,7 @@
 import React from 'react';
+import './index.css';
+const Github = require('../../resources/icons/github-mark.png');
+const LinkedIn = require('../../resources/icons/LI-Logo.png');
 
 const Footer = () => (
   <footer id="footer" className="page-footer font-small blue pt-4">
@@ -17,7 +20,10 @@ const Footer = () => (
         <div className="col-md-3 mb-md-0 mb-3">
           <ul className="list-unstyled">
             <li>
-              <a href="https://github.com/Brad-Hambrick">Github</a>
+              <a href="https://github.com/Brad-Hambrick">
+                <img className="githubIcon" alt="github" src={Github} />
+                <h6 className="githubLink">GitHub</h6>
+              </a>
             </li>
           </ul>
         </div>
@@ -26,7 +32,7 @@ const Footer = () => (
           <ul className="list-unstyled">
             <li>
               <a href="https://www.linkedin.com/in/brad-hambrick-9b2747244/">
-                LinkedIn
+                <img className="linkedInIcon" alt="LinkedIn" src={LinkedIn} />
               </a>
             </li>
           </ul>

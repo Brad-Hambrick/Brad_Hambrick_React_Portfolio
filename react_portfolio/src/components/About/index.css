@@ -1,6 +1,8 @@
 .headshot {
     border: 3px solid rgb(161, 161, 173);
     border-radius: 8px;
+    height: 23vh;
+    width: 20vh;
 }
 
 .nameHeader {
@@ -8,7 +10,6 @@
 }
 
 .about {
-    border: 5px solid rgb(18, 18, 103);
     background-color: #999;
     color: rgb(18, 18, 103);
 }

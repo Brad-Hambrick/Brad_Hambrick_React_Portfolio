@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import '../About/index.css';
 const Headshot = require('../../resources/images/Headshot.jpg');
 
-function About() {
+function About(props) {
   return (
     <div className="about">
       <Card>
@@ -49,15 +49,16 @@ function About() {
             introduced to web development. The more I explored this technology
             the more I fell in love with it. I have explained my past in order
             to note that although I only have approximately one year of
-            experience in web development, I have more life experience than many
-            people will obtain in an entire lifetime. I have conducted complex
-            investigations and planned operations that require the utmost of
-            attention to detail. I have led these operations as well as been a
-            member of a team executing these operations. I understand the value
-            to working as a team in order to complete a common goal and that
-            transfers directly to web development. Web development is very
-            similar to conducting a complex investigation. You have to go into
-            it with an open mind and have extreme attention to detail.
+            experience in web development, I have alot of life experience that
+            makes me a great candidate to work in Web Development. I have
+            conducted complex investigations and planned operations that require
+            the utmost of attention to detail. I have led these operations as
+            well as been a member of a team executing these operations. I
+            understand the value to working as a team in order to complete a
+            common goal and that transfers directly to web development. Web
+            development is very similar to conducting a complex investigation,
+            You have to go into it with an open mind and have extreme attention
+            to detail.
           </p>
         </Card.Header>
         <Card.Body>
