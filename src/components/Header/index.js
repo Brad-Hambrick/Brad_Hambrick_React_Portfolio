@@ -33,7 +33,11 @@ class Header extends Component {
 
         <div className="content">
           <Routes>
-            <Route exact path="/" element={<About />} />
+            <Route
+              exact
+              path="/Brad_Hambrick_React_Portfolio/"
+              element={<About />}
+            />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
