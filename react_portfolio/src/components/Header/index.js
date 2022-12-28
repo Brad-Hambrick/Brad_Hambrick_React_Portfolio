@@ -3,11 +3,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import Navigation from '../../components/Navigation/index';
 import Portfolio from '../../components/Portfolio/index';
 import About from '../../components/About/index';
 import Contact from '../../components/Contact/index';
-// import Resume from '../Resume';
+import Resume from '../../components/Resume/index';
 
 class Header extends Component {
   render() {
@@ -38,7 +37,7 @@ class Header extends Component {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            {/* <Route path="/resume" component={Resume} /> */}
+            <Route path="/resume" element={<Resume />} />
           </Routes>
         </div>
       </BrowserRouter>

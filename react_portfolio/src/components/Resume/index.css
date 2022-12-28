@@ -1,0 +1,10 @@
+* {
+    font-family: sans-serif;
+}
+.resumeHeader {
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+}
