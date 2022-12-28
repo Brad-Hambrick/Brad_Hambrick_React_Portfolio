@@ -1,7 +1,6 @@
 {
   "name": "react_portfolio",
   "version": "0.1.0",
-  "homepage": "https://Brad-Hambrick.github.io/Brad_Hambrick_React_Portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
