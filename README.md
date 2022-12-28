@@ -1,3 +1,3 @@
-# Brad_Hambrick_React_Portfolio
+# Getting Started with Create React App
 
-This is a professional portfolio that was created in order showcase applications that I have built or refactored.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

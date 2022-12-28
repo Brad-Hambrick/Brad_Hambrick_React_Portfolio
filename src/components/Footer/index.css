@@ -1,0 +1,14 @@
+.githubIcon {
+    width: 5vh;
+    height: 5vh;
+}
+
+.linkedInIcon {
+    width: 16vh;
+    height: 4vh;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
