@@ -38,22 +38,10 @@ class Header extends Component {
               path="/Brad_Hambrick_React_Portfolio/"
               element={<About />}
             />
-            <Route
-              path="/Brad_Hambrick_React_Portfolio/portfolio"
-              element={<Portfolio />}
-            />
-            <Route
-              path="/Brad_Hambrick_React_Portfolio/about"
-              element={<About />}
-            />
-            <Route
-              path="/Brad_Hambrick_React_Portfolio/contact"
-              element={<Contact />}
-            />
-            <Route
-              path="/Brad_Hambrick_React_Portfolio/resume"
-              element={<Resume />}
-            />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
           </Routes>
         </div>
       </BrowserRouter>
