@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Portfolio from './components/Portfolio';
-import About from './components/About';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
+import Header from './components/Header/index';
+import Footer from './components/Footer/index';
+import Portfolio from './components/Portfolio/index';
+import About from './components/About/index';
+import Contact from './components/Contact/index';
+import Resume from './components/Resume/index';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -21,10 +21,10 @@ function App() {
               path="/Brad_Hambrick_React_Portfolio/"
               element={<About />}
             />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/resume" element={<Resume />} />
+            <Route exact path="/portfolio/" element={<Portfolio />} />
+            <Route exact path="/about/" element={<About />} />
+            <Route exact path="/contact/" element={<Contact />} />
+            <Route exact path="/resume/" element={<Resume />} />
           </Routes>
         </div>
       </BrowserRouter>
