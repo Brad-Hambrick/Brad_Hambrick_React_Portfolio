@@ -12,6 +12,11 @@ const Weather = require('../../resources/images/Weather.png');
 function Portfolio() {
   return (
     <CardGroup className="portfolioContainer">
+      <h4>
+        These are several projects that I have either refactored or created from
+        the ground up. Please feel free to look around and I would love some
+        constructive criticism.
+      </h4>
       <Card className="portfolioItems">
         <Card.Img variant="top" alt="text editor" src={Texteditor} />
         <Card.Body>

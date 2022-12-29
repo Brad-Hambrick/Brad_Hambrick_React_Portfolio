@@ -3,10 +3,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Portfolio from '../../components/Portfolio/index';
-import About from '../../components/About/index';
-import Contact from '../../components/Contact/index';
-import Resume from '../../components/Resume/index';
+import Portfolio from '../Portfolio';
+import About from '../About';
+import Contact from '../Contact';
+import Resume from '../Resume';
 
 class Header extends Component {
   render() {
@@ -33,11 +33,7 @@ class Header extends Component {
 
         <div className="content">
           <Routes>
-            <Route
-              exact
-              path="/Brad_Hambrick_React_Portfolio/"
-              element={<About />}
-            />
+            <Route exact path="/" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />

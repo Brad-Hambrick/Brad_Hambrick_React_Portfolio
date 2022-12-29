@@ -1,9 +1,15 @@
+* {
+    font-family: sans-serif;
+}
+
 .portfolioContainer {
     margin: 5px;
+    margin-top: 2%;
 }
 
 .portfolioItems {
     border-radius: 8px;
+    margin-top: 2%;
 }
 
 .card-img-top {
@@ -11,3 +17,4 @@
     height: 8vw;
     object-fit: cover;
 }
+
