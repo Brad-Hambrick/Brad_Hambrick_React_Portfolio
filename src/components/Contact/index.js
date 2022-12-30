@@ -53,7 +53,7 @@ const Contact = () => {
 
         <Form.Group className="mb-3">
           <Form.Label>Message</Form.Label>
-          <Form.Control type="text" placeholder="Message" />
+          <Form.Control name="message" type="text" placeholder="Message" />
         </Form.Group>
         <Button type="submit" value="Send">
           Submit
