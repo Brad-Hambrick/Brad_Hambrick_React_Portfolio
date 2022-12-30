@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/index';
 import Footer from './components/Footer/index';
 import Portfolio from './components/Portfolio/index';
@@ -12,22 +12,18 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <div className="content">
           <Routes>
-            <Route
-              exact
-              path="/Brad_Hambrick_React_Portfolio/"
-              element={<About />}
-            />
-            <Route exact path="/portfolio/" element={<Portfolio />} />
-            <Route exact path="/about/" element={<About />} />
-            <Route exact path="/contact/" element={<Contact />} />
-            <Route exact path="/resume/" element={<Resume />} />
+            <Route path="/" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
           </Routes>
         </div>
-      </BrowserRouter>
+      </HashRouter>
 
       <Footer />
     </div>
