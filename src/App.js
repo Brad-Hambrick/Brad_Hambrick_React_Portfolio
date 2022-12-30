@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+// import { HashRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/index';
 import Footer from './components/Footer/index';
 import Portfolio from './components/Portfolio/index';
