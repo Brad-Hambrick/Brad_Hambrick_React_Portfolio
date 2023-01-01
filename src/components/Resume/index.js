@@ -48,7 +48,7 @@ function Resume() {
         </div>
         <h5>
           Download my full{' '}
-          <a href="https://github.com/Brad-Hambrick/Resume/raw/main/Resume.pdf">
+          <a href="https://github.com/Brad-Hambrick/Resume/raw/main/Professional%20Resume.pdf">
             RESUME
           </a>
         </h5>
