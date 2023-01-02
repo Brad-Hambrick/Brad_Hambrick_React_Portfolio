@@ -16,15 +16,11 @@ const Contact = () => {
         process.env.REACT_APP_TEMPLATE_ID,
         form.current,
         process.env.REACT_APP_USER_ID
-
-        // process.env.REACT_APP_SERVICE_ID,
-        // process.env.REACT_APP_TEMPLATE_ID,
-        // form.current,
-        // process.env.REACT_APP_USER_ID
       )
       .then(
         (result) => {
           console.log(result.text);
+          alert('Your email has been sent');
         },
         (error) => {
           console.log(error.text);
@@ -60,25 +56,6 @@ const Contact = () => {
         </Button>
       </Form>
     </div>
-    // <div className="emailContainer">
-    //   <form ref={form} onSubmit={sendEmail}>
-    //     <div className="emailItem">
-    //       <label>Name</label>
-    //       <input type="text" name="name" />
-    //     </div>
-    //     <div className="emailItem">
-    //       <label>Email</label>
-    //       <input type="email" name="email" />
-    //     </div>
-    //     <div className="emailItem">
-    //       <label>Message</label>
-    //       <textarea name="message" />
-    //       <div className="emailBtn">
-    //         <input type="submit" value="Send" />
-    //       </div>
-    //     </div>
-    //   </form>
-    // </div>
   );
 };
 
