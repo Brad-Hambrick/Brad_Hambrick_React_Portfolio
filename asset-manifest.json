@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/Brad_Hambrick_React_Portfolio/static/css/main.b25be687.css",
-    "main.js": "/Brad_Hambrick_React_Portfolio/static/js/main.de19ccec.js",
+    "main.js": "/Brad_Hambrick_React_Portfolio/static/js/main.395d3612.js",
     "static/js/787.a2cb61a6.chunk.js": "/Brad_Hambrick_React_Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/Goale.png": "/Brad_Hambrick_React_Portfolio/static/media/Goale.4dc13343789118e50ac9.png",
     "static/media/Bookpicker.png": "/Brad_Hambrick_React_Portfolio/static/media/Bookpicker.926fe4a01220f94e00dd.png",
     "static/media/Socialnetwork.png": "/Brad_Hambrick_React_Portfolio/static/media/Socialnetwork.8ad28e32f8b226589359.png",
+    "static/media/tapp-d-out.png": "/Brad_Hambrick_React_Portfolio/static/media/tapp-d-out.fd29ec11b4e685b89c7f.png",
     "static/media/Texteditor.png": "/Brad_Hambrick_React_Portfolio/static/media/Texteditor.f3221d03c9929c21c974.png",
     "static/media/Employeetracker.png": "/Brad_Hambrick_React_Portfolio/static/media/Employeetracker.b6dcaf727357411d3916.png",
-    "static/media/Weather.png": "/Brad_Hambrick_React_Portfolio/static/media/Weather.16d745526e74bf24b1b7.png",
     "static/media/Headshot.jpg": "/Brad_Hambrick_React_Portfolio/static/media/Headshot.123c53718cd789ead5d9.jpg",
     "static/media/logo-stackoverflow.png": "/Brad_Hambrick_React_Portfolio/static/media/logo-stackoverflow.e2c42001135addbad748.png",
     "static/media/LI-Logo.png": "/Brad_Hambrick_React_Portfolio/static/media/LI-Logo.a95afc06831647f5fca2.png",
     "index.html": "/Brad_Hambrick_React_Portfolio/index.html",
     "main.b25be687.css.map": "/Brad_Hambrick_React_Portfolio/static/css/main.b25be687.css.map",
-    "main.de19ccec.js.map": "/Brad_Hambrick_React_Portfolio/static/js/main.de19ccec.js.map",
+    "main.395d3612.js.map": "/Brad_Hambrick_React_Portfolio/static/js/main.395d3612.js.map",
     "787.a2cb61a6.chunk.js.map": "/Brad_Hambrick_React_Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b25be687.css",
-    "static/js/main.de19ccec.js"
+    "static/js/main.395d3612.js"
   ]
 }
